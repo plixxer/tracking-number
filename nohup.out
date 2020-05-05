@@ -1,0 +1,14 @@
+(node:4312) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(node:4312) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Application running on port 3000
+path:  C:\Users\richard\Documents\IT\projects\bigdaddyguns\tracking-number\backend\loaders/../controllers/number.controller.js
+path:  C:\Users\richard\Documents\IT\projects\bigdaddyguns\tracking-number\backend\loaders/../controllers/scraper.controller.js
+inserting unique tracking numbers: [183752931260, 183752952512, 9405511298370195808704, 183752931801, 183752932900]
+Connected to MongoDB.
+(node:4312) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+records added:  0
+::1 - - [05/May/2020:08:12:56 +0000] "GET / HTTP/1.1" 404 139
+::1 - - [05/May/2020:08:12:58 +0000] "GET /challenge HTTP/1.1" 404 270
+Error: ENOENT: no such file or directory, stat 'C:\Users\richard\Documents\IT\projects\bigdaddyguns\tracking-number\angular\index.html'
+::1 - - [05/May/2020:08:13:11 +0000] "GET /numbers HTTP/1.1" 404 146
+::1 - - [05/May/2020:08:13:15 +0000] "GET /number HTTP/1.1" 404 145
