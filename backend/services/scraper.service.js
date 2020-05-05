@@ -41,7 +41,7 @@ const puppeteer = require('puppeteer');
 			callback(null, null);
 		};
 
-		puppeteer.launch({ headless: true }).then(function (browser) {
+		puppeteer.launch({ headless: true, args: ['--no-sandbox'] }).then(function (browser) {
 			browser.newPage().then(function (page) {
 				page.goto(carrier_settings[mode].url, {
 					waitUntil: "networkidle2",
