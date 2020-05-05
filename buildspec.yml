@@ -9,6 +9,6 @@ phases:
     commands:
   build:
     commands:
-      - pm2 start server.js
+      - npm run build
   post_build:
     commands:
