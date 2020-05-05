@@ -16,6 +16,7 @@
     "mongoose": "^5.4.0",
     "morgan": "^1.9.1",
     "node-fetch": "^2.6.0",
+    "pm2": "^4.4.0",
     "puppeteer": "^2.1.1",
     "request": "^2.88.0",
     "zombie": "^6.1.4"
