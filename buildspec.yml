@@ -6,6 +6,7 @@ phases:
   pre_build:
     commands:
       - npm install
+      - npm install pm2
   build:
     commands:
       - pm2 start server.js
