@@ -1,0 +1,23 @@
+Developer Challenge App
+
+Backend:
+Write a service which downloads a JSON file hourly containing a list of tracking numbers
+Create a mongoose model and store newly found tracking numbers in a database with a timestamp of when they were first found (filter any duplicates)
+Write a simple endpoint to get the data to the frontend
+
+Frontend:
+Create a simple web table interface (using Angular's ng-repeat) which displays the tracking numbers found in the last 3 days, sorted by when they were found.
+Implement functionality to allow clicking on a tracking number to displays an estimated delivery date from the shipping service and a link to track the package.
+
+
+Resources needed:
+JSON file with tracking numbers: https://automation.bigdaddyunlimited.com/tracking_data.json 
+The attached Zip file contains a very basic "stubbed out" full stack MEAN app
+
+
+Additional Information: 
+This challenge has been designed to see how you approach a problem with limited information. Intentionally some information was left out to introduce a small hiccup within the first 24 hours of run time. 
+
+Hopefully, this will be a quick and fun project for you. The application touches upon some of the most common building blocks many of our projects rely on. We are building a middle tier and administrative toolset so much of the data we rely on is aggregated from different points, processed and stored, later to be used in administrative functions. 
+
+Please do not feel "hung up on" the appearance of the app, while an attractive interface is desirable it is not the point of the challenge.  

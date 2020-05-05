@@ -1,0 +1,23 @@
+{
+  "name": "developer-challenge-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.4.0",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "puppeteer": "^2.1.1",
+    "request": "^2.88.0",
+    "zombie": "^6.1.4"
+  }
+}
